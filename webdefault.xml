@@ -5,7 +5,6 @@
 在pom.xml里的Jetty Plugin的配置，加入webdefault.xml.如下：
 <configuration>
    <webDefaultXml>webdefault.xml</webDefaultXml>
-   ...
  </configuration> -->
 <!-- ===================================================================== -->
 <!-- This file contains the default descriptor for web applications.       -->
