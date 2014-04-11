@@ -109,9 +109,9 @@
 			<version>1.8.6</version>
 		</dependency>
 		<dependency>
-			<groupId>servletapi</groupId>
-			<artifactId>servletapi</artifactId>
-			<version>2.4</version>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -173,9 +173,13 @@
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
 			<artifactId>shiro-core</artifactId>
-			<version>1.1.0</version>
+			<version>1.2.2</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-web</artifactId>
+			<version>1.2.2</version>
+		</dependency>
 
 		<!-- mysql -->
 		<dependency>
